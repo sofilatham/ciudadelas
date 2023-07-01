@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Medieval_Normal_Script";
+    src: local("Medieval_Normal_Script"),
+     url("../fonts/EnchantedLand.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.block_usuario{
+    margin-top: 6vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 55vh;
+    width: 24vw;
+    padding: 1.5% 3% 1.5% 3%;
+    background-color: #89001c;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px 0px rgba(0,0,0,0.7);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#perso{
+    background-color: #790018a9;
+}
+
+.info{
+    height: 20vh;
+    width: 23vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.info_usuario{
+    width: 8vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-left: 4%;
+}
+
+.info_usuario p {
+    font-family: "Medieval_Normal_Script";
+    font-size: 25px;
+    color: #eab847;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.info_usuario .img_juego{
+    border-radius: 20%;
+    max-height: 6.5vw;
+    border: inset #eab847;
+    margin-top: 5%;
+}
+
+.info_jugador{
+    width: 8vw;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.monedero{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    margin-top: 15%;
+    font-family: "Medieval_Normal_Script";
+}
+.monedero p{
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-size: 35px;
+    color: #eab847;
+}
+.monedero .img_juego{
+    width: 4vw;
+    height: 4vw;
+    border: none;
+}
+
+.info_personaje{
+    width: 6vw;
+    margin: 2%;
+    margin-right: 4%;
+}
+
+.info_personaje .img_juego {
+    border: none;
+    width: 6vw;
+} 

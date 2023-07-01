@@ -1,0 +1,30 @@
+.carta_personaje {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 5px;
+    margin: 1%;
+
+}
+
+
+.carta_personaje img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+#carta_ladron{
+    background-color: #4fa543;
+}
+
+#carta_rey{
+    background-color: #f4ab21;
+}
+
+#carta_arquitecto{
+    background-color: #4588ce;
+}
+
+#carta_guerrero{
+    background-color: #f41537;
+}

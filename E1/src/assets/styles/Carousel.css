@@ -1,0 +1,313 @@
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.carousel img{
+    width: 80%;
+}
+
+.div_container{
+    height: 70vh;
+    width: 80vw;
+}
+
+button{
+    width: 20%;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0) ;
+    border: none;
+    margin: 3%;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+/*CONTENEDOR REGLAS*/
+.regla{
+
+    background-color: #cabe97;
+    font-family: "Medieval_Normal_Script";
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 5vh;
+    overflow: hidden;
+
+}
+
+.regla .banner{
+    margin-top: 0;
+    background-color: #334d6d;
+    width: 100%;
+    height: 10vh;
+}
+
+.regla h1{
+    margin: 2%;
+}
+
+.regla .contenido{
+    margin-top: 5%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.regla p{
+    margin: 0;
+    font-family: "Medieval_Normal_Script";
+    font-size: 2vw;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+#div2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#div3 img{
+    height: 25vh;
+    width: auto;
+    margin-top: -3%;
+    align-self: center;
+}
+
+#div4{
+    display: flex;
+    flex-direction: row;
+}
+
+#div4 img{
+    height: 50vh;
+    width: auto;
+    margin-top: -5%;
+}
+
+.div3{
+    margin: 0;
+    width: 50%;
+    /* margin-top: -31%;
+    margin-left: 20%; */
+}
+
+.div3 img{
+    height: 20%;
+    background-color: pink;
+}
+
+.div4{
+    margin-top: 13%;
+    margin-left: 3vw;
+}
+
+.div5{
+    margin-top: 17%;
+    margin-left: 3vw;
+}
+
+.imagediv1{
+    margin-left: 21%;
+    scale: 140%;
+}
+
+.contenido_div_6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: none;
+ }
+.container_div6{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.container_bajara{
+    width: 65%;
+    margin: 1%;
+ }
+
+ .container_monedero{
+    width: 35%;
+ }
+
+.imagediv7{
+    margin-left: 26%;
+    margin-bottom: 5%;
+    max-height: 40%;
+    max-width: 60%;
+}
+
+.container_div8{
+   display: flex;
+   justify-content: center;
+}
+
+.imagediv9{
+    margin-left: 15%;
+    max-height: 70%;
+    max-width: 90%;
+}
+
+.tamañocarta{
+    margin-left: -71%;
+    margin-top: 16%;
+    scale: 360%;
+}
+
+.tamañocartapersonaje{
+    margin-left: 10%;
+    margin-right: 13%;
+    margin-top: 16%;
+    scale: 360%;
+}
+
+.tamañociudad{
+    margin-left: 17%;
+    margin-top: 2%;
+    scale: 140%;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .div_container{
+        height: 72vh;
+        width: 80vw;
+    }
+
+    .regla titulo{
+        margin-top: -20%;
+    }
+    .regla h1{
+        font-size: 6vw;
+    }
+    .regla h2{
+        font-size: 4vw;
+    }
+
+    .regla h3{
+        font-size: 3.5vw;
+        margin-top: 10%;
+        margin-left: -12%;
+    }
+
+    .regla h4{
+        font-size: 3.5vw;
+        margin-left: -12%;
+    }
+
+    .regla p{
+        font-size: 2vw;
+    }
+
+    .tamañocartapersonaje{
+        margin-left: 45%;
+        margin-right: 20%;
+        margin-top: 4%;
+        scale: 150%;
+    }
+
+    .tamañocarta{
+        margin-left: 15%;
+        margin-right: 20%;
+        margin-top: 4%;
+        scale: 150%;
+    }
+
+    .tamañociudad{
+        margin-left: 15%;
+        margin-right: 20%;
+        margin-top: -5%;
+        scale: 90%;
+    }
+
+    .div3{
+        margin-top: 0%;
+        margin-left: 11%;
+    }
+
+    .div4{
+        margin-top: 0%;
+        margin-left: 11%;
+    }
+
+    .div5{
+        margin-top: 0%;
+        margin-left: 11%;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 800px){
+    .tamañocartapersonaje{
+        margin-left: 35%;
+        margin-right: 20%;
+        margin-top: 28%;
+        scale: 250%;
+    }
+
+    .tamañocarta{
+        margin-left: -45%;
+        margin-right: 20%;
+        margin-top: 28%;
+        scale: 250%;
+    }
+
+    .div4{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .div5{
+        margin-top: 14%;
+        margin-left: 10%;
+    }
+
+    .regla h3{
+        font-size: 2.8vw;
+        margin-top: -47%;
+        margin-left: 30%;
+    }
+
+    .regla h4{
+        font-size: 2.8vw;
+        margin-left: 30%;
+    }
+
+    .tamañociudad{
+        margin-left: 25%;
+        margin-right: 20%;
+        margin-top: -1%;
+        scale: 100%;
+    }
+
+    .div3{
+        margin-top: 0%;
+        margin-left: -42%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1340px) and (min-width: 1260px){
+    .div3{
+        margin-top: -31%;
+        margin-left: 24%;
+    }
+}
+
+@media only screen and (max-width: 1260px) and (min-width: 1100px){
+    .div3{
+        margin-top: -35%;
+        margin-left: 30%;
+    }
+}

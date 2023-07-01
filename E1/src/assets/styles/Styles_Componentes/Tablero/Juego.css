@@ -1,0 +1,23 @@
+body_juego{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mapa_central{
+    margin-top: 10vh;
+    height: 66vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #d9d1b3;
+
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+   .mapa_central{
+    flex-direction: column;
+   }
+}

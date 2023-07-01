@@ -1,0 +1,69 @@
+.compartido_header{
+    background-color: #eab847;
+    height: 10vh;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    column-gap: 1vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.compartido_header.botones{
+    column-gap: 0%;
+}
+
+h3{
+    text-align: center;
+    font-family: "Medieval_Normal_Script";
+    font-size: 35px;
+    color: black;
+}
+
+.turno_personaje{
+    text-align: center;
+    color: black;
+    height: 5vh;
+    width: 15vw;
+    background-color: #b6b2a8;
+    border: 5px inset #a09e97;
+    font-family: "Medieval_Normal_Script";
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.turno_personaje.activo {
+    background-color: #334d6d;
+    color: #ffffff;
+}
+
+.boton_terminar_turno{
+    width: 16vw;
+    height: 7vh;
+    background-color: #334d6d;
+    font-family: "Medieval_Normal_Script";
+    font-size: 33px;
+    color: #ffffff;
+    border: 5px inset #5885bd;
+}
+
+.boton_elegir_personaje{
+    margin-left: 3%;
+    margin-right: 1%;
+    text-align: center;
+    font-family: "Medieval_Normal_Script";
+    font-size: 25px;
+    color: #ffffff;
+    height: 7vh;
+    width: 15vw;
+    background-color: #334d6d;
+    border: 5px inset #a09e97;
+    font-family: "Medieval_Normal_Script";
+    font-size: 33px;
+    border-radius: 15px;
+}
+

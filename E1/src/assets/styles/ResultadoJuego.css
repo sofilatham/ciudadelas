@@ -1,0 +1,114 @@
+body{
+    margin : 0;
+    height: 100vh;
+    background-color: #d9d1b3;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #334d6d;
+    padding: 1%;
+
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.70);
+}
+
+header img{
+    width: 30%;   
+    margin-bottom: 4%; 
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+    background-color: #eab847;
+    margin-top: 9%;
+
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.btnr a {
+    display: block;
+    color: #24221d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Medieval_Normal_Script";
+    font-size: 1.6vw;
+    float: right;
+}
+
+.btnr a:hover {
+    background-color: #89001c;
+    color: antiquewhite;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90vw;
+}
+
+.block_coronado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corona{
+    margin: 0;
+    height: 15vh;
+    overflow: hidden;
+}
+
+.corona img{
+    width: 10vw;
+}
+
+.div_usuario{
+    height: 55vh;
+    width: 20vw;
+    padding: 1%;
+    background-color: #89001c;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px 0px rgba(0,0,0,0.7);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#perso{
+    background-color: #c0062b;
+}
+
+.div_usuario img{
+    background-color: #d9d1b3;
+    width: 40%;
+    border-radius: 50%;
+    border: 1vw groove #eab847;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.30);
+    margin-top: 5%;
+}
+
+.label_nombre{
+    margin: 0;
+    font-family: "Medieval_Normal_Script";
+    font-size: 7vh;
+    color: #d9d1b3;
+}
+
+.label_puntaje{
+    margin: 0;
+    font-family: "Medieval_Normal_Script";
+    font-size: 15vh;
+    color: #eab847;
+}

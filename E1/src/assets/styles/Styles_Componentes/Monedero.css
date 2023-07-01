@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Medieval_Normal_Script";
+    src: local("Medieval_Normal_Script"),
+     url("../fonts/EnchantedLand.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.Monedero{
+    width: 90%%;
+    margin: 2%;
+    background-color: #d9d1b3;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.div_monedero_contador{
+    background-color: #d9d1b3;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 3%;
+    font-family: "Medieval_Normal_Script";
+    font-size: 4vh;
+    width: 90%;
+}
+
+.div_monedero_contador img{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-top: -3%;
+}
+
+.div_boton_monedero{
+    background-color: #d9d1b3;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 3%;
+}
+
+.boton_monedero{
+    font-family: "Medieval_Normal_Script";
+    font-size: 2.8vh;
+    padding: 5%;
+    width: 90%;
+    background-color: #eab847;
+    border: solid #eab847;
+    border-radius: 15px;
+}
+
+.boton_monedero:hover{
+    background-color: #d9d1b3;
+    border: solid #eab847;
+    transform: none;
+    border-radius: 15px;
+}

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Medieval_Normal_Script";
+    src: local("Medieval_Normal_Script"),
+     url("../fonts/EnchantedLand.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.bajara_dinamico{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #d9d1b3;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.bajara_dinamico .bajara{
+    width: 80%;
+
+}
+
+.bajara_dinamico .button{
+    width: 20%;
+}
+
+.bajara_dinamico button{
+    background-color: #eab847;
+    width: 100%;
+    height: 95%;
+    border-radius: 15px;
+    font-family: "Medieval_Normal_Script";
+    font-size: 3vw;
+    margin: 5%;
+    border: solid #eab847;
+}
+
+.bajara_dinamico button:hover{
+    background-color: #d9d1b3;
+    border: solid #eab847;
+    transform: none;
+}

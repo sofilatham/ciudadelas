@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Medieval_Normal_Script";
+    src: local("Medieval_Normal_Script"),
+     url("../fonts/EnchantedLand.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.footer_perso{
+    background-color: #334d6d;
+    height: 24vh;
+    margin: 0;
+    padding: 0% 1% 0% 1%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.acciones_generales{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.botones_perso{
+    width: 16vw;
+    height: 7vh;
+    background-color: #eab847;
+    font-family: "Medieval_Normal_Script";
+    font-size: 25px;
+    color: #4d411a;
+    border: 5px inset #ab8301;
+}
+
+.botones_perso_clicked{
+    width: 16vw;
+    height: 7vh;
+    background-color: #8d8061;
+    font-family: "Medieval_Normal_Script";
+    font-size: 25px;
+    color: #4d411a;
+    border: 5px inset #ab8301;
+    pointer-events: none;
+}
+
+.accion_personaje{
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.boton_poder{
+    height: 18vh;
+    width: 15vw;
+    background-color: #eab847;
+    color: #725701;
+    border: 5px inset #ab8301;
+    font-family: "Medieval_Normal_Script";
+    font-size: 33px;
+    border-radius: 15px;
+}
+
+.boton_poder:hover{
+    background-image: url('../../../images/background-stars.png');
+    transform: none;
+}
+
+.boton_poder_clicked{
+    height: 18vh;
+    width: 15vw;
+    background-color: #eab847;
+    color: #725701;
+    border: 5px inset #ab8301;
+    font-family: "Medieval_Normal_Script";
+    font-size: 33px;
+    border-radius: 15px;
+}
+
+.boton_poder_clicked:hover{
+    background-color: #8d8061;
+}
+
+.descripcion_personaje{
+    font-family: "Medieval_Normal_Script";
+    font-size: 25px;
+    color: #d9d1b3;
+}
+
+.baraja_perso{
+    height: 20vh;
+    width: 35vw;
+}
+
+.div_espera{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label_espera{
+    font-family: "Medieval_Normal_Script";
+    font-size: 7vh;
+    margin: 5% 0% 0% 2%;
+}
+
+.boton_volver{
+    margin: 0;
+    background-color: #89001c;
+    border: 5px inset #46010f;
+    height: 6vh;
+    width: 20vw;
+    text-align: center;
+}
+
+.boton_volver a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Medieval_Normal_Script";
+    color: black;
+}
+
+.boton_volver:hover{
+    background-color: #b63737;
+}

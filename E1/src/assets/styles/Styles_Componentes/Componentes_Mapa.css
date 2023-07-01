@@ -1,0 +1,50 @@
+.div_Casilla{
+    border: dashed #d9d1b3; 
+    width: 60px;
+    height: 80px;
+
+    display: flex;
+    margin: auto;
+
+}
+
+.div_ciudad{
+    background-color: #eab847;
+    background-image: url('../../images/background-dirt.png');
+    border-radius: 15px;
+    border: 2px solid #eab847;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2%;
+    padding: 0.3%;
+    width: 20vw;
+    height: 17vw;
+}
+/* 
+.div_mapa{
+    background-color: #779100;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 5px inset #eab847;
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    margin: 1%;
+
+} */
+
+/* .aldea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div_mapa #grass_border{
+    overflow: hidden;
+    margin-top: -5%;
+    border-radius: 15px;
+    z-index: 1;
+} */

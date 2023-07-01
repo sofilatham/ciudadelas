@@ -1,0 +1,460 @@
+@font-face {
+    font-family: "Medieval_Normal_Script";
+    src: local("Medieval_Normal_Script"),
+     url("../fonts/EnchantedLand.ttf") format("truetype");
+    font-weight: bold;
+}
+
+    
+
+
+body{
+    margin : 0;
+    height: 100vh;
+
+    background-color: #d9d1b3;
+}
+
+/*BUTTONS*/
+.nav_button{
+    border-radius:10px;
+    background-color: #eab847;
+    padding: 2%;
+}
+
+.nav_button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2b2b2b;
+    font-family: "Medieval_Normal_Script";
+    font-size: 80%;
+}
+
+.boton_jugar{
+    border-radius:10px;
+    background-color: #eab847;
+    padding: 2%;
+    font-weight: bold;
+    color: #2b2b2b;
+    font-family: "Medieval_Normal_Script";
+    font-size: 6vh;
+    width: 100%;
+}
+
+.div_resumen .nav_button a{
+    font-size: 2.5vw;
+    width: 8vw;
+    text-align: center;
+}
+
+.nav_button:hover{
+    background-color: #d9d1b3;
+}
+
+.div_resumen .nav_button:hover{
+    background-color: #d9d1b3;
+}
+
+.div_resumen .nav_button a:hover{
+    color: #24221d;
+}
+
+/*HEADER*/
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #334d6d;
+    padding: 1%;
+
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.70);
+
+}
+
+header img{
+    width: 30%; 
+    margin-bottom: 4%;  
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+    background-color: #eab847;
+    margin-top: 9%;
+
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+btn {
+    float: left;
+}
+  
+btn a {
+    display: block;
+    color: #24221d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Medieval_Normal_Script";
+    font-size: 1.6vw;
+}
+
+btn a:hover {
+    background-color: #89001c;
+    color: antiquewhite;
+}
+
+btnr {
+    float: right;
+}
+  
+btnr a {
+    display: block;
+    color: #24221d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Medieval_Normal_Script";
+    font-size: 1.6vw;
+}
+
+btnr a:hover {
+    background-color: #89001c;
+    color: antiquewhite;
+}
+
+
+.active {
+    background-color: #89001c;
+    color: antiquewhite;
+  }
+
+header .nav_button {
+    position: absolute;
+    right: 0;
+    margin-right: 2%;
+    padding: 1%;
+
+
+}
+
+/*MAIN*/
+main{
+    background-color: #d9d1b3;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin: 3%;
+    height: 55vw;
+    font-family: "Medieval_Normal_Script";
+
+    padding-bottom: 5vw;
+    
+}
+
+main .nav_button{
+    display: flex;
+    justify-content: center;
+}
+
+/*DIV_RESUMEN*/
+.div_resumen{
+
+    background-color: #89001c;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 5vw;
+    overflow: hidden;
+
+}
+
+.div_resumen img{
+    width: 100%;
+    margin-top: -20%;
+    margin-bottom: 3%;
+    border-bottom: 0px;
+}
+
+.div_resumen logo{
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0px;
+}
+
+.div_resumen h2{
+    font-size: 2.3vw;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0%;
+    color: #ffefef;
+    text-align: justify;
+}
+
+.div_info_user{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    overflow: hidden;
+    margin-top: -10%;
+
+}
+
+/*DIV_PERFIL*/
+.div_perfil{
+
+    background-color: #cabe97;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5vw;
+    overflow: hidden;
+    height: 25vw;
+
+}
+
+.div_perfil banner{
+    background-color: #334d6d;
+    width: 100%;
+    height: 7vw;
+}
+
+.div_perfil img{
+    background-color: #d9d1b3;
+    width: 20%;
+    border-radius: 50%;
+    border: 1vw groove #eab847;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.30);
+    margin-top: -15%;
+    margin-left: 5%;
+}
+
+.div_perfil nombreusuario{
+    margin-left: 33%;
+    margin-right: 7%;
+    margin-top: -27%;
+}
+
+.div_perfil h1{
+    font-size: 3.5vw;
+    color: #ffefef;
+    text-align: justify;
+}
+
+
+.div_perfil endsession{
+    margin-left: 5%;
+    margin-top: 12%;
+}
+
+.div_perfil .nav_button{
+    background-color: #334d6d;
+    font-size: 2.2vw;
+    width: 22%;
+}
+
+.div_perfil .nav_button a{
+    color: #fff9e4;
+}
+
+.div_perfil .nav_button:hover{
+    background-color: #6e8096;
+}
+
+.div_perfil .nav_button a:hover{
+    color: #fff9e4;
+}
+
+.stats-info {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+    margin-top: -20%;
+    margin-left: 28%;
+}
+
+.stats-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -10%;
+    margin-top: 5%;
+}
+
+.stats-text ganadas{
+    color: #eab847;
+    font-size: 2vw;
+}
+
+.stats-text perdidas{
+    color: #89001c;
+    font-size: 2vw;
+}
+
+.stats-text number{
+    color: #2b2b2b;
+    font-size: 3vw;
+    margin-top: -20%;
+}
+
+.stats-text h2{
+    color: #2b2b2b;
+    font-size: 2vw;
+    margin-top: -2%;
+}
+
+.graph-container {
+	position: relative;
+}
+
+.percent {
+	display: block;
+	width: 12vw;
+	height: 12vw;
+}
+
+/*PARTIDAS PERDIDAS*/
+.circle {
+	stroke: #89001c;
+	fill: none;
+	stroke-width: 3;
+}
+
+/*PARTIDAS GANADAS*/
+.circle:nth-child(2) { 
+	stroke: #eab847;
+}
+
+.graph-container p {
+	position: absolute;
+	top: 33%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.1vw;
+	color: #2b2b2b;
+	text-align: center;
+}
+
+footer{
+    background-color: #43607e;
+    opacity: 100%;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 800px) {
+    main{
+        margin-top: 10%;
+        flex-direction: column;
+        height: fit-content;
+        width: 90%;
+        height: 140vw;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    .div_resumen{
+        width: 80%;
+        height: 85vw;
+    }
+
+    .div_resumen h2{
+        font-size: 3.5vw;
+    }
+    
+    btn a{
+        font-size: 2.5vw;
+    }
+
+    btnr a{
+        font-size: 2.5vw;
+    }
+
+    .div_resumen .nav_button a{
+        font-size: 4vw;
+    }
+
+    .div_info_user{
+        width: 80%;
+    }
+
+    .div_perfil{
+        height: 40vw;
+    }
+    
+    .div_perfil banner{
+        height: 12vw;
+    }
+
+    .div_perfil img{
+        border: 2vw groove #eab847;
+        margin-top: -14%;
+    }
+    
+    .div_perfil h1{
+        font-size: 6vw;
+    }
+    
+    .div_perfil .nav_button{
+        font-size: 4.5vw;
+    }
+
+    .stats-text ganadas{
+        font-size: 5vw;
+    }
+    
+    .stats-text perdidas{
+        font-size: 5vw;
+    }
+    
+    .stats-text number{
+        font-size: 6vw;
+        margin-top: -18%;
+        margin-bottom: 5%;
+    }
+
+    .stats-text h2{
+        font-size: 4.5vw;
+        margin-top: -15%;
+    }
+
+    .percent {
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    .circle {
+        stroke-width: 4;
+    }
+    
+    .graph-container p {
+        top: 29%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3.5vw;
+    }
+}
+
+

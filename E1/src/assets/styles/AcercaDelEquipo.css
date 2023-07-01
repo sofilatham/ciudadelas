@@ -1,0 +1,282 @@
+@font-face {
+    font-family: "Medieval_Normal_Script";
+    src: local("Medieval_Normal_Script"),
+     url("../fonts/EnchantedLand.ttf") format("truetype");
+    font-weight: bold;
+}
+
+    
+
+
+body{
+    margin : 0;
+    height: 100vh;
+
+    background-color: #d9d1b3;
+}
+
+/*BUTTONS*/
+.nav_button{
+
+    border-radius:10px;
+    background-color: #eab847;
+    padding: 2%;
+}
+
+.nav_button a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-family: "Medieval_Normal_Script";
+    font-size: 80%;
+}
+
+.nav_button:hover{
+    background-color: #d9d1b3;
+}
+
+.div_info .nav_button:hover{
+    background-color: #334d6d;
+}
+
+/*HEADER*/
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #334d6d;
+    padding: 1%;
+
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.70);
+
+}
+
+header img{
+    width: 30%;   
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+    background-color: #eab847;
+    margin-top: 9%;
+
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+btn {
+    float: left;
+}
+  
+btn a {
+    display: block;
+    color: #24221d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Medieval_Normal_Script";
+    font-size: 1.6vw;
+}
+
+btn a:hover {
+    background-color: #89001c;
+    color: antiquewhite;
+}
+
+btnr {
+    float: right;
+}
+  
+btnr a {
+    display: block;
+    color: #24221d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Medieval_Normal_Script";
+    font-size: 1.6vw;
+}
+
+btnr a:hover {
+    background-color: #89001c;
+    color: antiquewhite;
+}
+
+
+.active {
+    background-color: #89001c;
+    color: antiquewhite;
+  }
+
+header .nav_button {
+    position: absolute;
+    right: 0;
+    margin-right: 2%;
+    padding: 1%;
+
+
+}
+
+/*Main*/
+mainequipo{
+    margin-top: 5%;
+    background-color: #d9d1b3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 7%;
+    width: 60%;
+    height: 38vw;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.div_text{
+    background-color: #89001c;
+    font-family: "Medieval_Normal_Script";
+    text-align: center;
+    border-radius: 2vw;
+
+    width: 100%;
+    height: 5vw;
+
+    color: #d9d1b3;
+    font-size: 4vw;
+
+}
+.div_equipo{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    font-family: "Medieval_Normal_Script";
+}
+
+
+/*DIV_PERFIL*/
+.div_perfil_equipo{
+
+    background-color: #cabe97;
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 5vw;
+    overflow: hidden;
+    height: 20vw;
+
+}
+
+.div_perfil_equipo banner{
+    margin-top: 0;
+    background-color: #334d6d;
+    width: 100%;
+    height: 27%;
+}
+
+.div_perfil_equipo img{
+    background-color: #d9d1b3;
+    width: 20%;
+    border-radius: 50%;
+    border: 1vw groove #eab847;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.30);
+    margin-top: -15%;
+    margin-left: 5%;
+}
+
+.div_perfil_equipo nombreusuario{
+    margin-left: 35%;
+    margin-right: 7%;
+    margin-top: -29%;
+}
+
+.div_perfil_equipo h1{
+    font-size: 2.5vw;
+    color: #ffefef;
+    text-align: justify;
+}
+
+.div_perfil_equipo h2{
+    margin-left: 8%;
+    margin-top: 12%;
+    margin-bottom: -8%;
+    font-size: 1.6vw;
+    color: #24221d;
+    text-align: left;
+}
+
+footer{
+    background-color: #334d6d;
+    opacity: 100%;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    mainequipo{
+        flex-direction: row;
+        width: 80%;
+        margin-left: -20%;
+    }
+
+    .div_text{
+        margin-top: 10%;
+        margin-left: 25%;
+        width: 80%;
+        font-size: 4vw;
+    }
+
+    .div_equipo{
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 25%;
+        padding-bottom: 20%;
+    }
+
+    .div_perfil_equipo{
+        width: 100%;
+        height: 40vw;
+    }
+
+    .div_perfil_equipo img{
+        border: 1.5vw groove #eab847;
+        margin-top: -13%;
+        margin-left: 5%;
+    }
+
+    .div_perfil_equipo nombreusuario{
+        margin-left: 34%;
+        margin-top: -25%;
+    }
+
+    .div_perfil_equipo h1{
+        font-size: 4vw;
+    }
+
+    .div_perfil_equipo h2{
+        margin-left: 8%;
+        margin-top: 12%;
+        margin-bottom: -8%;
+        font-size: 3vw;
+        color: #24221d;
+        text-align: left;
+    }
+
+}

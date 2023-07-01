@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "Medieval_Normal_Script";
+    src: local("Medieval_Normal_Script"),
+     url("../fonts/EnchantedLand.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.form_ciudadelas{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+label{
+    font-family: "Medieval_Normal_Script";
+    font-size: 30px;
+    margin-left: 2%;
+}
+
+.input-text {
+    width: 100%;
+    height: 4hv;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #d9d1b3;
+    border-radius: 15px;
+}
+
+.input-text:focus {
+border-color: #eab847;
+outline: none;
+}
+
+.file-input {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.file-input input[type="file"] {
+font-size: 100px;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+cursor: pointer;
+}
+
+.file-input .btn-choose {
+display: inline-block;
+width: 80%;
+height: 50%;
+padding: 10px;
+background-color: #f3f0e6;
+border: 2px solid #f3f0e6;
+border-radius: 15px;
+text-align: center;
+line-height: 20px;
+cursor: pointer;
+}
+
+.file-input .btn-choose:hover {
+background-color: #635838;
+}
+
+body{
+    margin : 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d1b3;
+}
+
+/*BUTTONS*/
+.nav_button{
+
+    border-radius:10px;
+    background-color: #eab847;
+    padding: 2%;
+}
+
+.nav_button a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-family: "Medieval_Normal_Script";
+    font-size: 80%;
+}
+
+.nav_button:hover{
+    background-color: #d9d1b3;
+}
+
+.div_info .nav_button:hover{
+    background-color: #334d6d;
+}
+
+/*HEADER*/
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #334d6d;
+    padding: 1%;
+
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.70);
+
+}
+
+header img{
+    width: 30%;   
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+    background-color: #eab847;
+    margin-top: 9%;
+
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+btn {
+    float: left;
+}
+  
+btn a {
+    display: block;
+    color: #24221d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Medieval_Normal_Script";
+    font-size: 1.6vw;
+}
+
+btn a:hover {
+    background-color: #89001c;
+    color: antiquewhite;
+}
+
+btnr {
+    float: right;
+}
+  
+btnr a {
+    display: block;
+    color: #24221d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Medieval_Normal_Script";
+    font-size: 1.6vw;
+}
+
+btnr a:hover {
+    background-color: #89001c;
+    color: antiquewhite;
+}
+
+
+.active {
+    background-color: #89001c;
+    color: antiquewhite;
+  }
+
+header .nav_button {
+    position: absolute;
+    right: 0;
+    margin-right: 2%;
+    padding: 1%;
+
+
+}
+
+/*Main*/
+
+.div_text{
+    background-color: #89001c;
+    font-family: "Medieval_Normal_Script";
+    text-align: center;
+    border-radius: 2vw;
+    width: 100%;
+    height: 4vw;
+    color: #d9d1b3;
+    font-size: 3vw;
+
+}
+
+/*BUTTONS*/
+.boton_crear_cuenta{
+    text-align: center;
+    font-family: "Medieval_Normal_Script";
+    font-size: 25px;
+    color: #ffffff;
+    height: 7vh;
+    width: 15vw;
+    background-color: #334d6d;
+    font-family: "Medieval_Normal_Script";
+    font-size: 33px;
+    border-radius: 15px;
+}
+
+.footer{
+    background-color: #334d6d;
+    opacity: 100%;
+    text-align: center;
+    padding: 1%;
+    color: white;
+    font-size: medium;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    mainequipo{
+        flex-direction: row;
+        width: 80%;
+        margin-left: -20%;
+    }
+
+    .div_text{
+        margin-top: 10%;
+        margin-left: 25%;
+        width: 80%;
+        font-size: 4vw;
+    }
+
+    .div_equipo{
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 25%;
+        padding-bottom: 20%;
+    }
+
+    .div_perfil_equipo{
+        width: 100%;
+        height: 40vw;
+    }
+
+    .div_perfil_equipo img{
+        border: 1.5vw groove #eab847;
+        margin-top: -13%;
+        margin-left: 5%;
+    }
+
+    .div_perfil_equipo nombreusuario{
+        margin-left: 34%;
+        margin-top: -25%;
+    }
+
+    .div_perfil_equipo h1{
+        font-size: 4vw;
+    }
+
+    .div_perfil_equipo h2{
+        margin-left: 8%;
+        margin-top: 12%;
+        margin-bottom: -8%;
+        font-size: 3vw;
+        color: #24221d;
+        text-align: left;
+    }
+
+}
