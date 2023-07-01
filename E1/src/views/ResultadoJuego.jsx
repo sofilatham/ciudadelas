@@ -79,6 +79,8 @@ export default function ResultadoJuego(){
                 setNombres(array_nombres);
                 setFotos(array_fotos);
                 setPuntajes(array_puntajes);
+
+                axios.post(`${API_URL}/partida/${idPartida}/ganador/${response.data.idUsuarioGanador}`)
             })
         }
     }, [idPartida])

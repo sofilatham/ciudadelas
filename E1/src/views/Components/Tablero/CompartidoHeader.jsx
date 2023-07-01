@@ -101,7 +101,7 @@ export default function CompartidoHeader({idUsuario, idJugador, idPartida, cantJ
             {elegirRobado && <button className="boton_elegir_personaje" onClick={() => robar(4)}>Rey</button>}
 
             {usandoPoderArquitecto && <h3>Coloca una ciudad !</h3>}
-            {usandoPoderGuerrero && <h3>Qué ciudad quieres destruir ?</h3>}
+            {usandoPoderGuerrero && <h3>Qué edificio quieres destruir ?</h3>}
 
             {(turnoActual == miPersonajeID) && !usandoPoderGuerrero && !usandoPoderArquitecto && !elegirRobado && !elegirPersonajes && <button className="boton_terminar_turno" onClick={cambiar_turno}>Terminar Turno</button>}
 
