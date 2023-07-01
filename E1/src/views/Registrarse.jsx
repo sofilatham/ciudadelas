@@ -51,7 +51,7 @@ export default function Registrarse(){
             console.log(response)
         })
         .catch((error) => {
-            alert(error)
+            alert(error.response.data)
         })
     }
 

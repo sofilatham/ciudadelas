@@ -60,7 +60,7 @@ export default function ComoJugar(){
 
                 <nav>
                     <btn><a href='/LandingPage'>Home</a></btn>
-                    <btn><a href='/PaginaPrincipal'>Página Principal</a></btn>
+                    {loggedIn && <btn><a href='/PaginaPrincipal'>Página Principal</a></btn>}
                     <btn><a href='/AcercaDelEquipo'>Acerca De</a></btn>
                     <btn><a class="active" href='/ComoJugar'>Cómo Jugar</a></btn>
                     {loggedIn && <btnr><a href="/LandingPage" onClick={cerrarSesion}>Cerrar Sesión</a></btnr>}

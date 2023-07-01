@@ -40,7 +40,7 @@ export default function LandingPage(){
             window.location.href = '/PaginaPrincipal';
         })
         .catch((error) => {
-            console.log(error)
+            alert(error.response.data)
         })
     }
 

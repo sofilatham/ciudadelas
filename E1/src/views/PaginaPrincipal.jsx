@@ -90,7 +90,7 @@ export default function PaginaPrincipal(){
                         crearCookiePartida(response.data.encontrada);
                         window.location.href = '/Juego';
                     }
-                    else if (response.data.status == 201){
+                    if (response.data.status == 201){
                         const id = response.data.encontrada
                         console.log("voy a unirme a"+response.data.encontrada)
                         crearCookiePartida(response.data.encontrada);
@@ -245,6 +245,7 @@ Constructor.</h2>
                 </div>
 
                 <button className="boton_jugar" onClick={unirsePartida}>Jugar</button>
+                
 
             </div>}
 
